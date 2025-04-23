@@ -64,9 +64,9 @@ const categoria_precio = precio > 500 ? "Alta gama" : "Media o baja"
 -
 * Editor de código (por ejemplo, Visual Studio Code)
 -
--Navegador web moderno (para correr el código en consola)
+* Navegador web moderno (para correr el código en consola)
 -
--Conocimientos básicos de JavaScript
+* Conocimientos básicos de JavaScript
 
 
 
