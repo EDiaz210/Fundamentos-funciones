@@ -28,3 +28,45 @@ let detalle_producto = {
   gb_disponibles: 256,
   precio: 779.99
 }
+
+🔤 Strings
+-
+Se utilizan diferentes métodos de manipulación de cadenas como length, toUpperCase(), toLowerCase(), charAt() e includes() para analizar el nombre del producto.
+
+console.log(`Producto: ${tipo_producto} - Modelo: ${nombre_producto}`)
+
+🧾 Template Strings
+-
+Uso de template literals para generar salidas dinámicas de texto:
+
+console.log(`Producto: ${tipo_producto} - Modelo: ${nombre_producto}`)
+
+🔢 Número
+-
+
+Se realizan operaciones numéricas como aumento de almacenamiento y cálculo de descuento:
+console.log(gb_disponibles + 128)
+console.log(precio - (precio * 0.1))
+
+⚖️ Condicionales 
+-
+Uso de estructuras de control if y el operador ternario para clasificar el producto según su precio:
+
+if (precio > 500) {
+  console.log("El producto es de gama alta")
+} else {
+  console.log("El producto es de gama media o baja")
+}
+
+const categoria_precio = precio > 500 ? "Alta gama" : "Media o baja"
+
+💻 Requisitos
+-
+-Editor de código (por ejemplo, Visual Studio Code)
+
+Navegador web moderno (para correr el código en consola)
+
+Conocimientos básicos de JavaScript
+
+
+
