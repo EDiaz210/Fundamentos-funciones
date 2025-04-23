@@ -61,11 +61,11 @@ if (precio > 500) {
 const categoria_precio = precio > 500 ? "Alta gama" : "Media o baja"
 
 💻 Requisitos
--
+
 * Editor de código (por ejemplo, Visual Studio Code)
--
+
 * Navegador web moderno (para correr el código en consola)
--
+
 * Conocimientos básicos de JavaScript
 
 
